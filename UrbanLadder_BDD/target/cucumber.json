@@ -1,0 +1,618 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T13:21:39.174Z",
+        "line": 3,
+        "name": "To verify whether image is displayed or not",
+        "description": "",
+        "id": "bulk-orders-validation;to-verify-whether-image-is-displayed-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6544093400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage for bulk orders",
+            "match": {
+              "location": "stepDefinition.ValidateBulkOrders.user_opens_homepage_for_bulk_orders()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2551780800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Bulk Orders option",
+            "match": {
+              "location": "stepDefinition.ValidateBulkOrders.user_clicks_on_bulk_orders_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 299199400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user must be able to see the image",
+            "match": {
+              "location": "stepDefinition.ValidateBulkOrders.user_must_be_able_to_see_the_image()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Bulk Orders Validation",
+    "description": "",
+    "id": "bulk-orders-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/bulkOrder.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T13:21:48.731Z",
+        "line": 3,
+        "name": "Validate whether empty cart and browse options are visible or not",
+        "description": "",
+        "id": "validating-cart;validate-whether-empty-cart-and-browse-options-are-visible-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5651741400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens homepage for cart",
+            "match": {
+              "location": "stepDefinition.ValidateCart.user_opens_homepage_for_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 785620700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Cart option",
+            "match": {
+              "location": "stepDefinition.ValidateCart.user_clicks_on_cart_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4312879900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user must be able to see Empty Cart and Browse in Cart page",
+            "match": {
+              "location": "stepDefinition.ValidateCart.user_must_be_able_to_see_empty_cart_and_browse_in_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Cart",
+    "description": "",
+    "id": "validating-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/cart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T13:21:59.494Z",
+        "line": 3,
+        "name": "Validating whether particular name is present or not",
+        "description": "",
+        "id": "validate-customer-story;validating-whether-particular-name-is-present-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4480787200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage for customer story",
+            "match": {
+              "location": "stepDefinition.ValidateCustomerStory.user_opens_homepage_for_customer_story()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 781231500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Customer Stories option",
+            "match": {
+              "location": "stepDefinition.ValidateCustomerStory.user_clicks_on_customer_stories_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4320648100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user must be able to see the required name in Customer Stories page",
+            "match": {
+              "location": "stepDefinition.ValidateCustomerStory.user_must_be_able_to_see_the_required_name_in_customer_stories_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Customer Story",
+    "description": "",
+    "id": "validate-customer-story",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/customerStory.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T13:22:09.089Z",
+        "line": 3,
+        "name": "Validate whether special occassions is visible or not",
+        "description": "",
+        "id": "gift-card-validation;validate-whether-special-occassions-is-visible-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4569088900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage for gift card",
+            "match": {
+              "location": "stepDefinition.ValidateGiftcard.user_opens_homepage_for_gift_card()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1977469500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Gift Cards option",
+            "match": {
+              "location": "stepDefinition.ValidateGiftcard.user_clicks_on_gift_cards_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 298202000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user must be able to see Special Occassions on Gift Cards page",
+            "match": {
+              "location": "stepDefinition.ValidateGiftcard.user_must_be_able_to_see_special_occassions_on_gift_cards_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gift Card Validation",
+    "description": "",
+    "id": "gift-card-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/giftCard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T13:22:15.953Z",
+        "line": 3,
+        "name": "Validate whether Help Center is visible or not",
+        "description": "",
+        "id": "help-validation;validate-whether-help-center-is-visible-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4199999000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage for help",
+            "match": {
+              "location": "stepDefinition.ValidateHelp.user_opens_homepage_for_help()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 782360600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Help option",
+            "match": {
+              "location": "stepDefinition.ValidateHelp.user_clicks_on_help_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 315154300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user must be able to see Help Center on Help page",
+            "match": {
+              "location": "stepDefinition.ValidateHelp.user_must_be_able_to_see_help_center_on_help_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Help Validation",
+    "description": "",
+    "id": "help-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/help.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T13:22:21.271Z",
+        "line": 3,
+        "name": "Validate whether count of items is displayed on search page",
+        "description": "",
+        "id": "validating-search;validate-whether-count-of-items-is-displayed-on-search-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4221258300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage for search",
+            "match": {
+              "location": "stepDefinition.ValidateSearch.user_opens_homepage_for_search()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1483037100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters search query",
+            "match": {
+              "location": "stepDefinition.ValidateSearch.user_enters_search_query()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1384694200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "presses ENTER",
+            "match": {
+              "location": "stepDefinition.ValidateSearch.presses_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4583923500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user must be able to see the count of items displayed",
+            "match": {
+              "location": "stepDefinition.ValidateSearch.user_must_be_able_to_see_the_count_of_items_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Search",
+    "description": "",
+    "id": "validating-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/search.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T13:22:32.958Z",
+        "line": 3,
+        "name": "Validate whether a particular location is present or not",
+        "description": "",
+        "id": "validating-stores;validate-whether-a-particular-location-is-present-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4490333800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage for stores",
+            "match": {
+              "location": "stepDefinition.ValidateStores.user_opens_homepage_for_stores()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2104206700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Stores option",
+            "match": {
+              "location": "stepDefinition.ValidateStores.user_clicks_on_stores_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153588200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user must be able to see the location of the store on Stores page",
+            "match": {
+              "location": "stepDefinition.ValidateStores.user_must_be_able_to_see_the_location_of_the_store_on_stores_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Stores",
+    "description": "",
+    "id": "validating-stores",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/stores.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T13:22:39.731Z",
+        "line": 3,
+        "name": "Validate whether page title is correct or not",
+        "description": "",
+        "id": "title-validation;validate-whether-page-title-is-correct-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4387240400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens website for title",
+            "match": {
+              "location": "stepDefinition.ValidateTitle.user_opens_website_for_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1005400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user lands on website",
+            "match": {
+              "location": "stepDefinition.ValidateTitle.user_lands_on_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146601800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title is verified",
+            "match": {
+              "location": "stepDefinition.ValidateTitle.title_is_verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title Validation",
+    "description": "",
+    "id": "title-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/title.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T13:22:44.288Z",
+        "line": 3,
+        "name": "Validating whether error message appears when wrong details are entered",
+        "description": "",
+        "id": "validate-track-orders;validating-whether-error-message-appears-when-wrong-details-are-entered",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4114377500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage for tracking order",
+            "match": {
+              "location": "stepDefinition.ValidateTrackOrder.user_opens_homepage_for_tracking_order()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2447535300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Track Orders",
+            "match": {
+              "location": "stepDefinition.ValidateTrackOrder.user_clicks_on_track_orders()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 493680300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enters order number and phone number",
+            "match": {
+              "location": "stepDefinition.ValidateTrackOrder.enters_order_number_and_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81782100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on submit",
+            "match": {
+              "location": "stepDefinition.ValidateTrackOrder.clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301835700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user must be able to see error message",
+            "match": {
+              "location": "stepDefinition.ValidateTrackOrder.user_must_be_able_to_see_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Track Orders",
+    "description": "",
+    "id": "validate-track-orders",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/trackOrder.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-24T13:22:51.742Z",
+        "line": 3,
+        "name": "Validate whether message is displayed or not",
+        "description": "",
+        "id": "validate-wishlist;validate-whether-message-is-displayed-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4238398600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens homepage for wishlist",
+            "match": {
+              "location": "stepDefinition.ValidateWishlist.user_opens_homepage_for_wishlist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 734902800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Wishlist option",
+            "match": {
+              "location": "stepDefinition.ValidateWishlist.user_clicks_on_wishlist_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4273528200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user must be able to see message on Wishlist page",
+            "match": {
+              "location": "stepDefinition.ValidateWishlist.user_must_be_able_to_see_message_on_wishlist_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Wishlist",
+    "description": "",
+    "id": "validate-wishlist",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/wishlist.feature",
+    "tags": []
+  }
+]
